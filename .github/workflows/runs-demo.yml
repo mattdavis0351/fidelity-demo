@@ -10,5 +10,5 @@ jobs:
     - name: checkout code
       uses: actions/checkout@v2
     - name: docker build
-      run: docker build -t some-image:v1 ${{ github.WORKSPACE }}/Dockerfile
+      run: docker build -t some-image:v1 .
     
