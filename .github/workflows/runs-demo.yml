@@ -11,4 +11,6 @@ jobs:
       uses: actions/checkout@v2
     - name: docker build
       run: docker build -t some-image:v1 .
+    - name: run our container
+      run: docker run some-image:v1
     
