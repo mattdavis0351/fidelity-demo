@@ -1,0 +1,10 @@
+name: runs demo
+
+on: [watch]
+
+jobs:
+  demo-me:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "I'm a simple terminal command"
+    
